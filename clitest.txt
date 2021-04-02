@@ -1,1 +1,17 @@
-ng g c --help
+CLI
+    ng g --help
+
+Componente: 
+    ng g c --help
+    ng g c home -is
+    ng g c pages/about/about --flat --skipTests
+    ng g c contact --flat -is --skipTests
+
+Servicios:
+    ng g s --help
+    ng g s auth
+    ng g s services/user --dry-run
+    ng g s services/user --dry-run --skipTests
+
+Guards:
+    ng g guard guard/auth --skipTests
